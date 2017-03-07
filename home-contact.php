@@ -1,5 +1,5 @@
 <section class="services wrapper services_line" id="services_three" style="background-color: #e3e3e3;">
-	<!--<div class="footer">
+	<div class="footer">
 		<div class="container2">
 		   <div class="left" style="width: 30%;float: left;"><img src="//czyle.site.yunclever.com/wp-content/themes/kadima/images/dt.jpg"></div>
 			<div class="center" style="width: 35%;float: left;">
@@ -41,5 +41,5 @@
 				</ul>
 			</div>
 		</div>
-	</div>-->
+	</div>
 </section>
