@@ -484,7 +484,7 @@ h2 {
 }
 .btn input {
     width: 90%;
-    height: 42px;
+    height: 47px;
     padding-left: 10px;
     border: 2px solid #ff7f02;
     border-radius: 5px;
@@ -577,8 +577,81 @@ h2 {
 }
 /*page end*/
 
+.kadima_service_iocn {
+    margin: 0 auto;
+    -webkit-border-radius: 10% !important;
+    border-radius: 10% !important;
+    border: 4px solid #ff7f02 !important;
+    background-color: #ff7f02 !important;
+    background-image: linear-gradient(to bottom, #ff7f02 50%, #fff 50%) !important;
+}
+.kadima_service_iocn {
+    border: 4px solid #ff7f02;
+    background-color: #31A3DD;
+    background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, #31A3DD 50%, #fff 50%);
+}
+.kadima_service_iocn i {
+    color: #fff;
+    font-size: 50px;
+    position: relative;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 90px;
+    -webkit-transition: all .25s linear;
+    -moz-transition: all .25s linear;
+    -o-transition: all .25s linear;
+    transition: all .25s linear;
+}
+.kadima_service_iocn {
+    width: 90px;
+    height: 90px;
+    display: block;
+   
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    text-align: center;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+}
+.kadima_service_area:hover .kadima_service_iocn {
+    background-color: #ffffff;
+}
+.kadima_service_area:hover .kadima_service_iocn {
+    background-position: 0 -100%;
+}
+.kadima_service_area:hover .kadima_service_iocn i {
+    color: #ff7f02 !important;
+}
+.kadima_service_detail h3 {
+    font-size: 24px;
+    letter-spacing: normal;
+    line-height: 32px;
+    word-wrap: break-word;
+    margin: 0 0 10px;
+    font-weight: 600;
+    font-family: "alwyn-new-web",'Open Sans', 'Arimo', Arial, Helvetica, sans-serif;
+}
+.kadima_service_detail>h3>a {
+    color: #000 !important;
+	text-decoration:none;
+}
+.col-sm-2 {
+    width: 20%;
+}
+.kadima_service_area {
+    text-align: center;
+    margin-bottom: 0px !important;
+}
+.btn.active, .btn:active {
 
-
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,0);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,0);
+}
 @font-face {
     font-family: 'Gotham-Book';   /*字体名称*/
     src: url('../fonts/Gotham-Book.otf');       /*字体源文件*/
@@ -2379,7 +2452,7 @@ header#header ul#nav li.current-menu-item a {
 /* line 52, ../sass/partials/_services.scss */
 .services p {
     text-align: center;
-    width: 80% !important;
+    width: 100% !important;
     padding: 0 9% !important;
 }
 
@@ -3129,11 +3202,7 @@ blockquote {
 }
 
 /* line 297, ../sass/partials/_single.scss */
-hr {
-    float: left;
-    width: 30%;
-    margin: 40px 35%;
-}
+
 
 /* line 302, ../sass/partials/_single.scss */
 #single .left_col {
