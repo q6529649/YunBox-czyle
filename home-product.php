@@ -1,5 +1,5 @@
 <?php $theme_options = kadima_get_options(); ?>
-<section class="services wrapper services_line" id="services_three1">
+<section class="services wrapper services_line" id="sec_products">
 	<div class="main1_bg">
 		<div class="container1">
 			<div class="main slider_text texxt-center">

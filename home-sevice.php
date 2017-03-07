@@ -1,5 +1,3 @@
-
-<!-- service section -->
 <?php $wl_theme_options = kadima_get_options(); ?>
 <div class="kadima_service">
 <?php if($wl_theme_options['custom_heading'] !='') { ?>
@@ -16,7 +14,7 @@
 <?php } ?>
 <div class="container">
 		<div class="row isotope" id="isotope-service-container">
-			<div class="col-md-12" style="padding-top:39px;">
+			<div class="col-md-12" style="padding:5em 0;">
 				<?php for($i=1; $i<6; $i++ ) { ?>
 				<div class="col-xs-12 col-sm-2 service">
 					<div class="kadima_service_area appear-animation bounceIn appear-animation-visible">
@@ -45,7 +43,6 @@
 		</div>
 	</div>
 </div>
-<!-- /Service section -->
 
 
 

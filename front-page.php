@@ -9,7 +9,7 @@ if ($wl_theme_options['_frontpage']=="1" && is_front_page())
 	get_template_part('home','process');
 	get_template_part('home','product');
 	get_template_part('home','contact');
-	get_template_part('home','sever');
+	get_template_part('home','sevice');
 	get_footer();
 }
 else
