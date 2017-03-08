@@ -39,38 +39,31 @@
 
 <header id="header" class="wrapper">
     <div class="container">
-        <div class="row-fluid">
-            <div class="span12">
-                <div id="logo">
+        <div class="row">
+            <div class="col-md-3">
+				<div id="logo">
 					<a href="<?php echo esc_url(home_url( '/' )); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 					<?php if($wl_theme_options['upload_image_logo']){ ?>
 						<img src="<?php echo $wl_theme_options['upload_image_logo']; ?>" style="padding-top: 0px;" />
 					<?php } ?>
 					</a>
                 </div>
-                <nav>
-                    <div id="menu_two" class="desktop">
-						<?php
-							wp_nav_menu( array(
-								'theme_location' => 'primary',
-								'menu_class' => 'nav',
-								'menu_id' => 'nav',
-								'walker' => new kadima_nav_walker(),
-								)
-							);
-						?>
-					</div>
-                    <div id="button_wrapper">
-                        <div class="btn">
-                            <form>
-								<input type="text" placeholder="">
-								<button type="submit">
-									<img src="//czyle.site.yunclever.com/wp-content/themes/kadima/images/fdj.png">
-								</button>
-                            </form>
-						</div>
-                    </div>
+            </div>
+            <div class="col-md-6">
+				<nav>
+					<?php
+						wp_nav_menu( array(
+							'theme_location' => 'primary',
+							'menu_class' => 'nav',
+							'menu_id' => 'nav',
+							'walker' => new kadima_nav_walker(),
+							)
+						);
+					?>
                 </nav>
+            </div>
+			<div class="col-md-3">
+				<?php get_search_form(); ?>
             </div>
         </div>
     </div>

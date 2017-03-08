@@ -1962,14 +1962,14 @@ header#header nav {
 @media only screen and (min-width: 767px) {
     /* line 27, ../sass/partials/_header.scss */
     header#header nav {
-        width: 70%;
+        width: 100%;
     }
 }
 @media only screen and (min-width: 1279px) {
     /* line 27, ../sass/partials/_header.scss */
     header#header nav {
         float: left;
-        width: 70%;
+        width: 100%;
     }
 }
 
