@@ -726,6 +726,7 @@ p {
     float: left;
     width: 100%;
     display: block;
+	
 }
 
 @-moz-document url-prefix() {
@@ -991,7 +992,21 @@ h2#title {
 .about_peep.h {
     display: none;
 }
-
+.breadcrumb li {
+	color:#666 !important;
+	text-decoration:none;
+	font-family: proxima-nova;
+	font-size:60px;
+	text-align: center;
+}
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #fff;
+    border-radius: 4px;
+	text-align: center;
+}
 /* line 1, ../sass/partials/_blog.scss */
 #blog {
     border-top: 1px solid #ddd;
@@ -1928,6 +1943,7 @@ input[type=submit]:hover {
 /* line 1, ../sass/partials/_header.scss */
 header {
     padding: 20px 0;
+	border-bottom: 1px solid #000;
 }
 @media only screen and (min-width: 1279px) {
     /* line 1, ../sass/partials/_header.scss */
