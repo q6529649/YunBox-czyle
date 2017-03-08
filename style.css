@@ -22,7 +22,7 @@ Text Domain: kadima
 /* Header Section css */
 
 body {
-    font-family: 'Open Sans', 'Arimo', Arial, Helvetica, sans-serif;
+    font-family: proxima-nova, 'Open Sans', 'Arimo', Arial, Helvetica, sans-serif;
     background-color: #fff;
 }
 
