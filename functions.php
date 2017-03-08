@@ -148,7 +148,6 @@
         echo '<ul class="breadcrumb">';
         global $post;
         $homeLink = home_url();
-        echo '<li><a href="' . $homeLink . '">' . $home . '</a></li>' . $delimiter . ' ';
         if (is_category()) {
             global $wp_query;
             $cat_obj = $wp_query->get_queried_object();

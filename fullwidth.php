@@ -1,5 +1,6 @@
 <?php //Template Name:Full-Width Page
 get_header(); 
+get_template_part('breadcrums'); ?>
 ?>
 <div class="container">
 	<div class="row kadima_blog_wrapper">
