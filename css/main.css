@@ -4193,8 +4193,9 @@ body.page-template-video header nav {
     transform: scale3d(0.5,0.5,1);
     -webkit-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
+	background-color: #fff;
 }
-}
+
 
 .effect-lexi:hover img {
 	opacity: 0.6;
