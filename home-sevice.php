@@ -18,10 +18,10 @@
 				<?php for($i=1; $i<6; $i++ ) { ?>
 				<div class="col-xs-12 col-sm-2 service">
 					<div class="kadima_service_area appear-animation bounceIn appear-animation-visible">
-						<?php if($wl_theme_options['custom_icons_3_'.$i] !='') { ?>
-							<div class="kadima_service_iocn">
+						<?php if($wl_theme_options['custom_img_3_'.$i] !='') { ?>
+							<div>
 								<a href="<?php echo esc_url($wl_theme_options['custom_link_3_'.$i]); ?>">
-									<i class="<?php echo esc_attr($wl_theme_options['custom_icons_3_'.$i]); ?>"></i>
+									<img src="<?php echo esc_attr($wl_theme_options['custom_img_3_'.$i]); ?>">
 								</a>
 							</div>
 						<?php } ?>
