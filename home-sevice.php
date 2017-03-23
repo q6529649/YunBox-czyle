@@ -27,12 +27,13 @@
 						<?php } ?>
 						<div class="kadima_service_detail media-body">
 							<?php if($wl_theme_options['custom_title_3_'.$i] !='') { ?>
+								<hr style="border:none;border-top:1px dashed #f9b62a;" />
 								<h3>
 									<a href="<?php echo esc_url($wl_theme_options['custom__link_3_'.$i]); ?>">
 										<?php echo esc_attr($wl_theme_options['custom_title_3_'.$i]); ?>
 									</a>
 								</h3>
-								<hr style="border:none;border-top:1px dashed #f9b62a;" />
+								
 							<?php } ?>
 							<?php if($wl_theme_options['custom_text_3_'.$i] !='') { ?><p><?php echo apply_filters('the_content', $wl_theme_options['custom_text_3_'.$i], true); ?></p><?php } ?>
 						</div>
