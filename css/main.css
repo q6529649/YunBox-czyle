@@ -4254,6 +4254,7 @@ body.page-template-video header nav {
     color: #000;
     background-color: #fff;
     opacity: 1;
+    border: 1px solid #000;
 }
 .ajax-load-more-wrap.grey button.alm-load-more-btn.done {
     color: #000;
