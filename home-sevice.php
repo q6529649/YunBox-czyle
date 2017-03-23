@@ -20,7 +20,7 @@
 					<div class="kadima_service_area appear-animation bounceIn appear-animation-visible">
 						<?php if($wl_theme_options['custom_img_3_'.$i] !='') { ?>
 							<div>
-								<a href="<?php echo esc_url($wl_theme_options['custom_link_3_'.$i]); ?>">
+								<a>
 									<img src="<?php echo esc_attr($wl_theme_options['custom_img_3_'.$i]); ?>">
 								</a>
 							</div>
@@ -29,7 +29,7 @@
 							<?php if($wl_theme_options['custom_title_3_'.$i] !='') { ?>
 								<hr style="border:none;border-top:1px dashed #f9b62a;" />
 								<h3>
-									<a href="<?php echo esc_url($wl_theme_options['custom__link_3_'.$i]); ?>">
+									<a>
 										<?php echo esc_attr($wl_theme_options['custom_title_3_'.$i]); ?>
 									</a>
 								</h3>

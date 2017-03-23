@@ -676,9 +676,7 @@ ul .social li .facebook a:hover, ul .social li .twitter a:hover, ul .social li .
     color: white;
 }
 
-body {
-    font-family: 'Open Sans', 'Arimo', Arial, Helvetica, sans-serif;
-}
+
 
 .row {
     margin-left: 0px;
@@ -812,7 +810,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .dropdown-menu>li>a:before {
     content: "\f105";
-    font-family: FontAwesome;
     margin-right: 10px;
     opacity: 0;
     font-size: 16px;
@@ -835,7 +832,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-nav>.open>a:after {
     content: "\f0d8";
-    font-family: FontAwesome;
     position: absolute;
     z-index: 9999;
     bottom: -6px;
