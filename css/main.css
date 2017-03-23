@@ -1695,10 +1695,6 @@ form#commentform label.error {
     margin-top: 30px;
     padding-bottom: 0 !important;
 }
-.span7 p,a,h2{
-    font-weight:600 !important;
-}
-
 /* line 14, ../sass/partials/_contact.scss */
 .half {
     width: 100%;
