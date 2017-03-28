@@ -1,5 +1,5 @@
 <?php $theme_options = kadima_get_options(); ?>
-<section class="services wrapper services_line" id="services_three" style="border-bottom: 1px solid #333">
+<section class="services wrapper services_line" id="services_three" style="border-bottom: 1px solid #e2e2e2;">
     <div class="container">
         <div class="row-fluid">
             <div class="span12">

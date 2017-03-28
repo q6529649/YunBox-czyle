@@ -1938,7 +1938,7 @@ input[type=submit]:hover {
 /* line 1, ../sass/partials/_header.scss */
 header {
     padding: 20px 0;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #e2e2e2;
 }
 @media only screen and (min-width: 1279px) {
     /* line 1, ../sass/partials/_header.scss */
@@ -4372,7 +4372,7 @@ body.page-template-video header nav {
 	-ms-flex-pack: left;
 	justify-content: left;
 	overflow: hidden;
-	margin-bottom: 80px;
+	margin-bottom: 10px;
 }
 .slidebottom .left-side {
 	height: 70%;
@@ -4406,9 +4406,10 @@ body.page-template-video header nav {
 	transition: all .2s ease-out;
 	padding-left: 30px;
 	padding-right: 30px;
+	font-size: 1.4em;
 }
 .slidebottom .left-side ul li:hover {
-	color: #333333;
+	color: #FF7f02;
 	-webkit-transition: all .2s ease-out;
 	transition: all .2s ease-out;
 }
@@ -4416,7 +4417,7 @@ body.page-template-video header nav {
 	fill: #333;
 }
 .slidebottom .left-side ul li.active {
-	color: #333333;
+	color: #FF7f02;;
 }
 .slidebottom .left-side ul li.active:hover > .icon {
 	fill: #E74C3C;
@@ -4429,7 +4430,7 @@ body.page-template-video header nav {
 	width: 54px;
 	height: 5px;
 	background-color: #ff7f02;
-	margin-left: 25px;
+	margin-left: 3%;
 	-webkit-transition: all .4s ease-in-out;
 	transition: all .4s ease-in-out;
 }
@@ -4437,7 +4438,7 @@ body.page-template-video header nav {
 	width: 54px;
 	height: 5px;
 	background-color: #ff7f02;
-	margin-left: 167px;
+	margin-left: 22%;
 	-webkit-transition: all .4s ease-in-out;
 	transition: all .4s ease-in-out;
 }
@@ -4445,7 +4446,7 @@ body.page-template-video header nav {
 	width: 54px;
 	height: 5px;
 	background-color: #ff7f02;
-	margin-left: 363px;
+	margin-left: 45%;
 	-webkit-transition: all .4s ease-in-out;
 	transition: all .4s ease-in-out;
 }
@@ -4453,7 +4454,7 @@ body.page-template-video header nav {
 	width: 54px;
 	height: 5px;
 	background-color: #ff7f02;
-	margin-left: 544px;
+	margin-left: 68%;
 	-webkit-transition: all .4s ease-in-out;
 	transition: all .4s ease-in-out;
 }
@@ -4461,12 +4462,12 @@ body.page-template-video header nav {
 	width: 54px;
 	height: 5px;
 	background-color: #ff7f02;
-	margin-left: 715px;
+	margin-left: 89%;
 	-webkit-transition: all .4s ease-in-out;
 	transition: all .4s ease-in-out;
 }
 .slidebottom .right-side {
-	height: 300px;
+	height: 400px;
 	width: 75%;
 	overflow: hidden;
 }

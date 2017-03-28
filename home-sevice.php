@@ -9,7 +9,7 @@
 			<?php } ?>
 		</ul>
     </div>
-	<div style="width: 900px;margin: auto;padding-left: 45px;padding-right: 45px;">
+	<div style="width: 1100px;margin: auto;padding-left: 45px;padding-right: 45px;">
 		<div class="border">
 			<div id="line" class="one"></div>
 		</div>
