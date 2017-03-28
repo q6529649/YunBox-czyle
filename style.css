@@ -2397,7 +2397,6 @@ header#header ul#nav li.current-menu-item a {
 /* line 1, ../sass/partials/_services.scss */
 #services_one {
     border-top: 1px solid #ddd;
-    background: url(../img/ecommerce-conversion-rate-optimization-services-small.jpg) no-repeat top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -2406,7 +2405,7 @@ header#header ul#nav li.current-menu-item a {
 @media only screen and (min-width: 767px) {
     /* line 1, ../sass/partials/_services.scss */
     #services_one {
-        background: url(../images/banner.jpg) no-repeat top center;
+        background: url(./images/banner.jpg) no-repeat top center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
