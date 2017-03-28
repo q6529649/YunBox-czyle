@@ -4372,7 +4372,7 @@ body.page-template-video header nav {
 	-ms-flex-pack: left;
 	justify-content: left;
 	overflow: hidden;
-	margin-bottom: 10px;
+	margin-bottom: 60px;
 }
 .slidebottom .left-side {
 	height: 70%;
@@ -4467,7 +4467,7 @@ body.page-template-video header nav {
 	transition: all .4s ease-in-out;
 }
 .slidebottom .right-side {
-	height: 400px;
+	height: 280px;
 	width: 75%;
 	overflow: hidden;
 }
