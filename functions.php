@@ -11,14 +11,13 @@
         wp_enqueue_style('video-js-css', '//statics.yunclever.com/videojs/5.17.0/video-js.min.css');
         wp_enqueue_style('font-family', get_template_directory_uri() . '/css/font-family.css');
         wp_enqueue_style('allinone_carousel', get_template_directory_uri() . '/css/allinone_carousel.css');
-        wp_enqueue_style('style', get_template_directory_uri() . '/css/main.css');
+        wp_enqueue_style('style', get_template_directory_uri() . '/style.css');
         wp_enqueue_script('bootstrap-js', '//statics.yunclever.com/bootstrap/3.3.7/js/bootstrap.min.js', array('jquery'));
         wp_enqueue_script('video-js', '//statics.yunclever.com/videojs/5.17.0/video.min.js', array('jquery'));
         wp_enqueue_script('logjs', '//statics.yunclever.com/log/0.3.0/log.min.js', array('jquery'));
         wp_enqueue_script('jquery-ui', get_template_directory_uri() .'/js/jquery-ui-1.8.16.custom.min.js', array('jquery'));
         wp_enqueue_script('allinone_carouseljs', get_template_directory_uri() .'/js/allinone_carousel.js', array('jquery'));
         wp_enqueue_script('kadima-theme-script', get_template_directory_uri() .'/js/kadima_theme_script.js', array('jquery'));
-		wp_enqueue_script('kadima-theme-script', get_template_directory_uri() .'/js/jquery-2.1.0.min.js', array('jquery'));
         if(is_front_page()){
             wp_enqueue_script('jquery.carouFredSel', '//cdn.bootcss.com/jquery.caroufredsel/6.2.1/jquery.carouFredSel.packed.js');
             wp_enqueue_script('photobox-js', '//cdn.bootcss.com/photobox/1.9.9/photobox/jquery.photobox.min.js');

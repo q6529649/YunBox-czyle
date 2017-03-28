@@ -5,7 +5,133 @@
 	log.l('%c了解更多 -> https://www.yunclever.com', style);
 })();
 /* menu */
-jQuery(document).ready(function() {
+jQuery(document).ready(function($) {
+	jQuery('#first1').addClass("active")
+	jQuery('.choose1').addClass('active');
+	jQuery('.choose1 > .icon').addClass('active');
+    jQuery('.choose1').click(function () {
+        jQuery('.choose1').addClass('active');
+        jQuery('.choose1 > .icon').addClass('active');
+        jQuery('.choose2').removeClass('active');
+        jQuery('.choose3').removeClass('active');
+        jQuery('.choose4').removeClass('active');
+        jQuery('.choose2 > .icon').removeClass('active');
+        jQuery('.choose3 > .icon').removeClass('active');
+        jQuery('.choose4 > .icon').removeClass('active');
+        jQuery('#line').addClass('one');
+        jQuery('#line').removeClass('two');
+        jQuery('#line').removeClass('three');
+        jQuery('#line').removeClass('four');
+		jQuery('#line').removeClass('five');
+		jQuery('.choose5').removeClass('active');
+        jQuery('.choose5 > .icon').removeClass('active');
+    });
+    jQuery('.choose2').click(function () {
+        jQuery('.choose2').addClass('active');
+        jQuery('.choose2 > .icon').addClass('active');
+        jQuery('.choose1').removeClass('active');
+        jQuery('.choose3').removeClass('active');
+        jQuery('.choose4').removeClass('active');
+        jQuery('.choose1 > .icon').removeClass('active');
+        jQuery('.choose3 > .icon').removeClass('active');
+        jQuery('.choose4 > .icon').removeClass('active');
+        jQuery('#line').addClass('two');
+        jQuery('#line').removeClass('one');
+        jQuery('#line').removeClass('three');
+        jQuery('#line').removeClass('four');
+		jQuery('#line').removeClass('five');
+		jQuery('.choose5').removeClass('active');
+        jQuery('.choose5 > .icon').removeClass('active');
+    });
+    jQuery('.choose3').click(function () {
+        jQuery('.choose3').addClass('active');
+        jQuery('.choose3 > .icon').addClass('active');
+        jQuery('.choose2').removeClass('active');
+        jQuery('.choose1').removeClass('active');
+        jQuery('.choose4').removeClass('active');
+		jQuery('.choose5').removeClass('active');
+        jQuery('.choose2 > .icon').removeClass('active');
+        jQuery('.choose1 > .icon').removeClass('active');
+        jQuery('.choose4 > .icon').removeClass('active');
+		jQuery('.choose5 > .icon').removeClass('active');
+        jQuery('#line').addClass('three');
+        jQuery('#line').removeClass('two');
+        jQuery('#line').removeClass('one');
+        jQuery('#line').removeClass('four');
+		jQuery('#line').removeClass('five');
+		jQuery('.choose5').removeClass('active');
+        jQuery('.choose5 > .icon').removeClass('active');
+    });
+    jQuery('.choose4').click(function () {
+        jQuery('.choose4').addClass('active');
+        jQuery('.choose4 > .icon').addClass('active');
+		jQuery('.choose5').removeClass('active');
+        jQuery('.choose5 > .icon').removeClass('active');
+        jQuery('.choose2').removeClass('active');
+        jQuery('.choose3').removeClass('active');
+        jQuery('.choose1').removeClass('active');
+        jQuery('.choose2 > .icon').removeClass('active');
+        jQuery('.choose3 > .icon').removeClass('active');
+        jQuery('.choose1 > .icon').removeClass('active');
+        jQuery('#line').addClass('four');
+        jQuery('#line').removeClass('two');
+        jQuery('#line').removeClass('three');
+        jQuery('#line').removeClass('one');
+		jQuery('#line').removeClass('five');		
+    });
+	jQuery('.choose5').click(function () {
+        jQuery('.choose5').addClass('active');
+        jQuery('.choose5 > .icon').addClass('active');
+        jQuery('.choose2').removeClass('active');
+        jQuery('.choose3').removeClass('active');
+        jQuery('.choose1').removeClass('active');
+		jQuery('.choose4').removeClass('active');
+        jQuery('.choose2 > .icon').removeClass('active');
+        jQuery('.choose3 > .icon').removeClass('active');
+        jQuery('.choose1 > .icon').removeClass('active');
+		jQuery('.choose4 > .icon').removeClass('active');
+        jQuery('#line').addClass('five');
+        jQuery('#line').removeClass('two');
+        jQuery('#line').removeClass('three');
+        jQuery('#line').removeClass('one');
+		jQuery('#line').removeClass('four');		
+    });
+    jQuery('.choose1').click(function () {
+        jQuery('#first1').addClass('active');
+        jQuery('#first2').removeClass('active');
+        jQuery('#first3').removeClass('active');
+        jQuery('#first4').removeClass('active');
+		jQuery('#first5').removeClass('active');
+    });
+    jQuery('.choose2').click(function () {
+        jQuery('#first1').removeClass('active');
+        jQuery('#first2').addClass('active');
+        jQuery('#first3').removeClass('active');
+        jQuery('#first4').removeClass('active');
+		jQuery('#first5').removeClass('active');
+    });
+    jQuery('.choose3').click(function () {
+        jQuery('#first1').removeClass('active');
+        jQuery('#first2').removeClass('active');
+        jQuery('#first3').addClass('active');
+        jQuery('#first4').removeClass('active');
+		jQuery('#first5').removeClass('active');
+    });
+    jQuery('.choose4').click(function () {
+        jQuery('#first1').removeClass('active');
+        jQuery('#first2').removeClass('active');
+        jQuery('#first3').removeClass('active');
+        jQuery('#first4').addClass('active');
+		jQuery('#first5').removeClass('active');
+    });
+	jQuery('.choose5').click(function () {
+        jQuery('#first1').removeClass('active');
+        jQuery('#first2').removeClass('active');
+        jQuery('#first3').removeClass('active');
+		jQuery('#first4').removeClass('active');
+        jQuery('#first5').addClass('active');
+    });
+	
 	if( jQuery(window).width() > 767) {
 	   jQuery('.nav li.dropdown').hover(function() {
 		   jQuery(this).addClass('open');
