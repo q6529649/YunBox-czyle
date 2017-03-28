@@ -1,5 +1,5 @@
 <?php $theme_options = kadima_get_options(); ?>
-<div class="slidebottom container">
+<div class="slidebottom wrapper">
     <div class="left-side" style="width: 100%;">
         <ul>
 			<?php for($i=1; $i<6; $i++ ) { ?>
