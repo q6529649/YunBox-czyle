@@ -74,7 +74,7 @@ ul, li { list-style:none; }
             <div class="taitp3">
                 <div style="float: left;">
                     <p style="padding-top: 3px;padding-right: 10px;color:#ff7f02;font-size: 11px;margin-bottom: 0;">●</p>
-                    <p style="padding-top: 59px;padding-right: 10px;color:#ff7f02;font-size: 11px;margin-bottom: 0;">●</p>
+                    <p style="padding-top: 32px;padding-right: 10px;color:#ff7f02;font-size: 11px;margin-bottom: 0;">●</p>
                     <p style="padding-top: 8px;padding-right: 10px;color:#ff7f02;font-size:11px;margin-bottom: 0;">●</p>
                 </div>
                 <ul>
