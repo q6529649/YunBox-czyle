@@ -13,7 +13,11 @@
                 <div style="text-align: center;">
                     <img src="<?php echo esc_url($theme_options['custom_img_2_2']); ?>">
                 </div>
-                <p class="p1"><a><?php echo esc_attr($theme_options['custom_title_2_1']); ?></a></p>
+                <p class="p1">
+					<a href="<?php echo esc_attr($theme_options['custom_link_2_1']); ?>">
+						<?php echo esc_attr($theme_options['custom_title_2_1']); ?>
+					</a>
+				</p>
             </div>
         </div>
     </div>
