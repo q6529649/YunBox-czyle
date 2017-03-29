@@ -67,7 +67,7 @@
 					<?php
 						wp_nav_menu( array(
 							'theme_location' => 'primary',
-							'menu_class' => 'nav',
+							'menu_class' => 'nav cl-effect-12',
 							'menu_id' => 'nav',
 							'walker' => new kadima_nav_walker(),
 							)
