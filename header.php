@@ -34,6 +34,19 @@
 	<?php wp_head(); ?>
 	<script src="https://use.typekit.net/hrb5api.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+	<script type="text/javascript">
+	  var _paq = _paq || [];
+	  _paq.push(['trackPageView']);
+	  _paq.push(['enableLinkTracking']);
+	  (function() {
+		var u="//analytics.yunclever.com/";
+		_paq.push(['setTrackerUrl', u+'piwik.php']);
+		_paq.push(['setSiteId', '13']);
+		var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+	  })();
+	</script>
+
 </head>
 <body <?php body_class(); ?>>
 
