@@ -2,7 +2,7 @@
 <div class="footer1_bg">
     <div class="container">
         <div class="col-md-6 col-sm-12 text-left">
-			<p>YALAIER CERAMICS FACTORY</p>			
+			<p>YALAIER CERAMICS FACTORY</p>		
 			<ul class="social">
 			<?php if($theme_options['fb_link']!='') { ?>
 				<li title="Facebook"><a href="<?php echo esc_url($theme_options['fb_link']); ?>"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
